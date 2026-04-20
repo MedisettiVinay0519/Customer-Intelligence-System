@@ -89,7 +89,6 @@ Develop SQL-based analytics to generate insights into:
 
 These insights help stakeholders track key business metrics and support strategic decision-making.
 
-📄 For detailed requirements, see: `docs/requirements.md`
 
 ---
 
