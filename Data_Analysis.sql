@@ -451,7 +451,36 @@ SELECT
 
 FROM product_aggregations 
 
+	
+---TO Find Money spent by each customer , find frequency of customers , recency basically means the differnece between there last order date and current date
+SELECT MAX(order_date) FROM gold.fact_sales;
+--TO FIND THE LAST DAY OF DATA IS RECORDED ->'2014-01-28'
+WITH rfm_base AS (
+    SELECT 
+        customer_key,
+        MAX(order_date) AS last_order_date,
+        COUNT( order_number) AS frequency,
+        SUM(sales_amount) AS monetary
+    FROM gold.fact_sales
+    GROUP BY customer_key
+),
 
+rfm_calc AS (
+    SELECT 
+        customer_key,
+        DATEDIFF(day, last_order_date, '2014-01-28') AS recency,
+        frequency,
+        monetary
+    FROM rfm_base
+),
+rfm_scores AS (
+SELECT *,
+    NTILE(5) OVER (ORDER BY recency DESC) AS r_score,
+    NTILE(5) OVER (ORDER BY frequency) AS f_score,
+    NTILE(5) OVER (ORDER BY monetary) AS m_score
+FROM rfm_calc 
+)
+SELECT *,
 
 
 
