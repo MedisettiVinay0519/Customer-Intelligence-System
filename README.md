@@ -96,29 +96,4 @@ These insights help stakeholders track key business metrics and support strategi
 ### 🔹 Customer Intelligence
 ![Page 2](images/Customer%20Intelligence.png)
 
-## 📂 Repository Structure
 
-```text
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets (ERP and CRM data)
-│
-├── docs/                               # Documentation and architecture artifacts
-│   ├── etl.drawio                      # ETL techniques and workflows
-│   ├── data_architecture.drawio        # Overall project architecture
-│   ├── data_catalog.md                 # Dataset catalog and metadata
-│   ├── data_flow.drawio                # Data flow diagrams
-│   ├── data_models.drawio              # Star schema data models
-│   ├── naming-conventions.md           # Naming standards
-│
-├── scripts/                            # SQL scripts
-│   ├── bronze/                         # Raw data ingestion
-│   ├── silver/                         # Data transformation and cleansing
-│   ├── gold/                           # Analytical models
-│
-├── tests/                              # Data quality and validation tests
-│
-├── README.md                           # Project overview
-├── LICENSE                             # License information
-├── .gitignore                          # Git ignore rules
-└── requirements.txt                    # Project dependencies
