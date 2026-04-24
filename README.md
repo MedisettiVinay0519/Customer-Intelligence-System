@@ -91,10 +91,10 @@ These insights help stakeholders track key business metrics and support strategi
 ## 📊 Dashboard Overview
 
 ### 🔹 Executive Overview
-![Page 1]()
+![Page 1](images/Overview.png)
 
 ### 🔹 Customer Intelligence
-![Page 2](Customer Intelligence.png)
+![Page 2](images/Customer%20Intelligence.png)
 
 ## 📂 Repository Structure
 
