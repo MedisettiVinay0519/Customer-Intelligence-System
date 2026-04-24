@@ -46,7 +46,7 @@ This project covers the complete data warehousing lifecycle:
   Building fact and dimension tables optimized for analytical queries
 
 - **Analytics & Reporting**  
-  Developing SQL-based analytical queries to generate actionable insights
+  Developing SQL-based analytical queries to generate actionable insights and visualised in PowerBI
 
 ---
 
@@ -58,7 +58,7 @@ This project covers the complete data warehousing lifecycle:
 - **SQL Server Management Studio (SSMS)**: Database management and querying
 - **Git & GitHub**: Version control and collaboration
 - **Draw.io**: Architecture, ETL, data flow, and data model diagrams
-- **Notion**: Project planning and task tracking
+- **Visualisation**:PowerBI
 
 ---
 
