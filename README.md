@@ -88,9 +88,13 @@ Develop SQL-based analytics to generate insights into:
 - Sales Trends  
 
 These insights help stakeholders track key business metrics and support strategic decision-making.
+## 📊 Dashboard Overview
 
-Customer Intelligence.png
----
+### 🔹 Executive Overview
+![Page 1]()
+
+### 🔹 Customer Intelligence
+![Page 2](Customer Intelligence.png)
 
 ## 📂 Repository Structure
 
