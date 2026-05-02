@@ -1,4 +1,4 @@
-# SQL Data Warehouse Project 🚀
+# CUSTOMER INTELLIGENCE SYSTEM 🚀
 
 Welcome to the **Data Warehouse and Analytics Project** repository!  
 This project demonstrates an **end-to-end modern data warehousing solution**, from raw data ingestion to business-ready analytics.
